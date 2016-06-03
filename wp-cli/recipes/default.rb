@@ -1,3 +1,5 @@
+wpdir = "/usr/bin/"
+
 remote_file "#{wpdir}/wp" do
   source "http://opsworks-bootcamp-jp.s3.amazonaws.com/wordpress/wp-cli.phar"
   owner "root"
